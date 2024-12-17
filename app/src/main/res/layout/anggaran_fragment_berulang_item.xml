@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    android:layout_marginBottom="20dp"
+    app:cardCornerRadius="16dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_border"
+        android:paddingLeft="16dp"
+        android:paddingBottom="16dp"
+        android:paddingRight="16dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/shapimg_item_kamu"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/seratus_saja"
+            app:layout_constraintBottom_toTopOf="@id/view_item_kamu"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.00"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/CircleImageView" />
+
+        <TextView
+            android:id="@+id/tv_judul_item_kamu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="Bahan Makanan"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@id/tv_waktu_kamu"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.00"
+            app:layout_constraintStart_toEndOf="@id/shapimg_item_kamu"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_bulanan_kamu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Bulanan"
+            android:textColor="@color/abu_abu_dark"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_waktu_kamu"
+            app:layout_constraintEnd_toStartOf="@+id/imgv_titik_item_kamu"
+            app:layout_constraintStart_toEndOf="@id/shapimg_item_kamu"
+            app:layout_constraintTop_toTopOf="@+id/tv_waktu_kamu" />
+
+        <ImageView
+            android:id="@+id/imgv_titik_item_kamu"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:padding="3dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/icon_bundar"
+            app:layout_constraintBottom_toBottomOf="@id/tv_bulanan_kamu"
+            app:layout_constraintEnd_toStartOf="@id/tv_waktu_kamu"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@id/tv_bulanan_kamu"
+            app:layout_constraintTop_toTopOf="@id/tv_bulanan_kamu"
+            app:tint="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_waktu_kamu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="40dp"
+            android:text="1 Des 24 - 24 Des 24"
+            android:textColor="@color/abu_abu_dark"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/imgv_berulang"
+            app:layout_constraintEnd_toStartOf="@+id/imgv_next_item_kamu"
+            app:layout_constraintStart_toEndOf="@+id/imgv_titik_item_kamu"
+            app:layout_constraintTop_toBottomOf="@id/tv_judul_item_kamu" />
+
+        <ImageView
+            android:id="@+id/imgv_berulang"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/icon_berulang"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@id/view_item_kamu"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.00"
+            app:layout_constraintStart_toStartOf="@id/tv_bulanan_kamu"
+            app:layout_constraintTop_toBottomOf="@id/tv_waktu_kamu"
+            app:tint="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_anggaran_berulang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anggaran Berulang"
+            android:layout_marginLeft="4dp"
+            android:textColor="@color/abu_abu_dark"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="@id/imgv_berulang"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.00"
+            app:layout_constraintStart_toEndOf="@id/imgv_berulang"
+            app:layout_constraintTop_toTopOf="@id/imgv_berulang"/>
+
+        <ImageView
+            android:id="@+id/imgv_next_item_kamu"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="20dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/next_detail"
+            app:layout_constraintBottom_toTopOf="@id/view_item_kamu"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.999"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/black" />
+
+        <View
+            android:id="@+id/view_item_kamu"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/abu_abu"
+            app:layout_constraintBottom_toTopOf="@id/tv_anggaran_item_kamu"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imgv_berulang"
+            app:layout_constraintVertical_bias="0.5" />
+
+        <TextView
+            android:id="@+id/tv_anggaran_item_kamu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Anggaran"
+            android:textColor="@color/abu_abu_dark"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@id/tv_anggaran_rupiah_item_kamu"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.00"
+            app:layout_constraintStart_toEndOf="@id/shapimg_item_kamu"
+            app:layout_constraintTop_toBottomOf="@id/view_item_kamu" />
+
+        <TextView
+            android:id="@+id/tv_anggaran_rupiah_item_kamu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="Rp 58.868"
+            android:textColor="@color/green"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@id/view_progres_persen"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.00"
+            app:layout_constraintStart_toStartOf="@id/tv_anggaran_item_kamu"
+            app:layout_constraintTop_toBottomOf="@id/tv_anggaran_item_kamu" />
+
+        <TextView
+            android:id="@+id/tv_sisa_boncos_item_kamu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Sisa/Boncos"
+            android:textColor="@color/abu_abu_dark"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@id/tv_sisa_boncos_rupiah_item_kamu"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.999"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/view_item_kamu" />
+
+        <TextView
+            android:id="@+id/tv_sisa_boncos_rupiah_item_kamu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="Rp 58.955"
+            android:textColor="@color/green"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@id/view_progres_persen"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.00"
+            app:layout_constraintStart_toStartOf="@id/tv_sisa_boncos_item_kamu"
+            app:layout_constraintTop_toBottomOf="@id/tv_sisa_boncos_item_kamu" />
+
+        <View
+            android:id="@+id/view_progres_persen"
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:background="@drawable/radius16"
+            android:backgroundTint="@color/red"
+            app:circularflow_radiusInDP="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.999" />
+
+        <TextView
+            android:id="@+id/tv_persen_progres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="14%"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="@id/view_progres_persen"
+            app:layout_constraintEnd_toEndOf="@id/view_progres_persen"
+            app:layout_constraintStart_toStartOf="@id/view_progres_persen"
+            app:layout_constraintTop_toTopOf="@id/view_progres_persen" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "710025787640",
+    "project_id": "sratus-23deb",
+    "storage_bucket": "sratus-23deb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710025787640:android:bdddb00131bae36277a30d",
+        "android_client_info": {
+          "package_name": "com.example.myapppengelolakeungan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "710025787640-cqei20dsqblho2citfiesdkpuuq5a209.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGdSHz1CivxAPdavc1KQriBJCJ6U8bpuQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "710025787640-cqei20dsqblho2citfiesdkpuuq5a209.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

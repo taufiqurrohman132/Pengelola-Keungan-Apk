@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="16dp"
+    android:id="@+id/kategori_item"
+    android:backgroundTint="@color/white"
+    android:layout_marginEnd="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_border"
+        android:padding="8dp"
+        android:orientation="horizontal">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/shap_anggaran_kamu_item"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            app:shapeAppearanceOverlay="@style/CircleImageView"
+            android:src="@drawable/seratus_saja"/>
+        <TextView
+            android:id="@+id/tv_anggaran_kamu_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginEnd="8dp"
+            android:text="Bahan Makanan"
+            android:textColor="@color/abu_abu_dark"/>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

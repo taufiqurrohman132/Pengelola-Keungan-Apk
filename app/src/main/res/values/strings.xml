@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MyAppPengelolaKeungan</string>
+    <string name="masuk_dengan_google">Masuk dengan Google</string>
+    <string name="daftar_akun_baru">Daftar Akun Baru</string>
+    <string name="sudah_punya_akun">Sudah punya akun?</string>
+    <string name="login_disini">Login Disini</string>
+    <string name="dengan_mendaftar_saya_menyetujui">Dengan mendaftar, saya menyetujui</string>
+    <string name="atau">Atau</string>
+    <string name="login">Login</string>
+    <string name="masukkan_email_kamu">Masukkan email kamu</string>
+    <string name="email">Email</string>
+    <string name="login_ke_akun">Login ke Akun</string>
+    <string name="belum_punya_akun">Belum punya akun?</string>
+    <string name="daftar_disini">Daftar Disini</string>
+    <string name="password">Password</string>
+    <string name="masukkan_password_kamu">Masukkan password kamu</string>
+    <string name="lupa_password">Lupa Password?</string>
+    <string name="teks_verivy"><![CDATA[Cek inbox & spam emailmu, kami baru saja mengirimkan 6 digit kode verifikasi ke]]></string>
+    <string name="daftar_dengan_google">Daftar dengan Google</string>
+    <string name="daftar">Daftar</string>
+    <string name="tambah_akun">Tambah Akun</string>
+    <string name="tambah_pengingat">Tambah Pengingat</string>
+</resources>

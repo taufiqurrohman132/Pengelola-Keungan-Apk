@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ActiveIndikatorStyle" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/blue_transparant</item>
+    </style>
+    <style name="StatusBarColorBackground" parent="Base.Theme.MyAppPengelolaKeungan">
+        <!--set action bar tranparant-->
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+    <style name="TextBold" parent="Base.Theme.MyAppPengelolaKeungan">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextBold.Size18" parent="TextBold">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="TextBold.Size28" parent="TextBold">
+        <item name="android:textSize">28sp</item>
+    </style>
+    <style name="TextBold.Size16" parent="TextBold">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="JudulActivity" parent="TextBold">
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="ProfileImage" parent="Base.Theme.MyAppPengelolaKeungan">
+        <item name="android:layout_height">48dp</item>
+        <item name="android:layout_width">48dp</item>
+    </style>
+    <style name="ImageSettingAkunSaya" parent="Base.Theme.MyAppPengelolaKeungan">
+        <item name="android:layout_height">38dp</item>
+        <item name="android:layout_width">38dp</item>
+    </style>
+    <style name="TextBoldTransaksi" parent="Base.Theme.MyAppPengelolaKeungan">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+    <style name="StatusBarTheme" parent="Base.Theme.MyAppPengelolaKeungan">
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

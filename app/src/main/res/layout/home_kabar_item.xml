@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@+id/cv_img_kabar"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imgv_kabar"
+        android:src="@drawable/seratus"/>
+</androidx.cardview.widget.CardView>

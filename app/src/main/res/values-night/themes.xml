@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyAppPengelolaKeungan" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- menetapkan tema apk selalu cerah. -->
+
+        <item name="colorPrimary">@color/white</item>
+        <item name="android:statusBarColor">@color/transparant</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <!--set action bar tranparant-->
+    </style>
+
+    <style name="CircleImageView" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="Padding24">
+        <item name="android:padding">24dp</item>
+    </style>
+</resources>
